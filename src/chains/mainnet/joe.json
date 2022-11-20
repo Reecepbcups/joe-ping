@@ -1,0 +1,19 @@
+{
+    "chain_name": "joe",
+    "coingecko": "",
+    "api": "https://rest.justjoe.app:443",
+    "rpc": ["https://rpc.justjoe.app:443", "https://rpc.justjoe.app:443"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.6",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "joe",
+    "logo": "/logos/joe.png",
+    "assets": [{
+        "base": "ujoe",
+        "symbol": "JOE",
+        "exponent": "6",
+        "coingecko_id": "ethereum", 
+        "logo": "/logos/joe.png"
+    }]
+}

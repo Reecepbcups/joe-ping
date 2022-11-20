@@ -94,6 +94,7 @@ module.exports = {
   },
   transpileDependencies: ['vue-echarts', 'resize-detector'],
   devServer: {
+    allowedHosts: 'all',
     proxy: {
       '/api': {
         target: 'https://cosmos.api.ping.pub/',
