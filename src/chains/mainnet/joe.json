@@ -1,8 +1,8 @@
 {
     "chain_name": "joe",
     "coingecko": "",
-    "api": "https://rest.justjoe.app:443",
-    "rpc": ["https://rpc.justjoe.app:443", "https://rpc.justjoe.app:443"],
+    "api": "https://rest.justjoe.app",
+    "rpc": ["https://rpc.justjoe.app", "https://rpc.justjoe.app"],
     "snapshot_provider": "",
     "sdk_version": "0.46.6",
     "coin_type": "118",
