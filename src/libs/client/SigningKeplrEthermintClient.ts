@@ -45,7 +45,7 @@ export default class SigningKeplerEthermintClient {
     }
     const txBodyBytes = this.client.registry.encode(txBodyEncodeObject)
     const gasLimit = Int53.fromString(fee.gas).toNumber()
-    const authInfoBytes = makeAuthInfoBytes([{ pubkey: pubk, sequence: explicitSignerData.sequence }], fee.amount, gasLimit)
+    const authInfoBytes = makeAuthInfoBytes([{ pubkey: pubk, sequence: explicitSignerData.sequence }], fee.amount, gasLimit, fee.granter, fee.payer)
     const signDoc = makeSignDoc(txBodyBytes, authInfoBytes, explicitSignerData.chainId, explicitSignerData.accountNumber)
     const { signature, signed } = await this.signer.signDirect(signerAddress, signDoc)
 
