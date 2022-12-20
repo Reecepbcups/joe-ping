@@ -1,8 +1,8 @@
 {
     "chain_name": "joe",
     "coingecko": "",
-    "api": ["https://api.justjoe.app", "https://joe-api.polkachu.com","https://joe.api.chandrastation.com"],
-    "rpc": ["https://rpc.justjoe.app", "https://joe-rpc.polkachu.com", "https://joe.rpc.chandrastation.com"],
+    "api": ["https://joe-api.polkachu.com","https://joe.api.chandrastation.com"],
+    "rpc": ["https://joe-rpc.polkachu.com", "https://joe.rpc.chandrastation.com"],
     "snapshot_provider": "",
     "sdk_version": "0.46.6",
     "coin_type": "118",
